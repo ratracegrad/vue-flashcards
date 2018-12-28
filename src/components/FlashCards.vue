@@ -1,11 +1,5 @@
 <template>
-    <main id="app">
-        <div class="title">vue-flashcards</div>
-        <br>
-        <h2 class="description">If you have ever wanted to learn something, you used flashcards. Vue Flashcards is a fun way to test your knowledge of Vue.<br>Select a topic, then pick a card.
-        </h2>
-        <br>
-        <!--<flash-cards></flash-cards>-->
+    <div>
         <nav class="demo-buttons" >
             <span v-for="(button, b) in buttons" :key="b">
                 <span>
@@ -26,14 +20,14 @@
                 </div>
             </div>
         </div>
-    </main>
+    </div>
 </template>
 
 <script>
 import questions from '@/data/index.json';
 
 export default {
-    name: 'App',
+    name: 'FlashCards',
     data() {
         return {
             toggle: false,
@@ -45,6 +39,11 @@ export default {
         buttons() {
             return Object.keys(questions);
         }
+    },
+    created() {
+        // let key = this.buttons[0];
+        // this.createInitialDeck(key);
+        // this.currentButton = key;
     },
     methods: {
         createInitialDeck(topic) {
@@ -64,35 +63,9 @@ export default {
     }
 };
 </script>
-<style>
-*,
-:after,
-:before {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-body {
-    color: #fffce1;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    height: 100vh;
-}
-#app {
-    background: #b4bad2;
-    height: 100%;
-    overflow: auto;
-    padding: 3em 2em;
-    text-align: center;
-}
-a {
-    color: #4e4a36;
-    text-decoration: none;
-}
-a:focus,
-a:hover {
-    color: #c94e50;
-}
-.title {
+
+<style scoped>
+h1 {
     font-size: 3.75em;
     font-weight: 800;
     color: #4e4a36;

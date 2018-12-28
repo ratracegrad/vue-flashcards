@@ -1,0 +1,96 @@
+{
+    "vue": [
+        {
+            "toggle": false,
+            "question": "Who created Vue?",
+            "choices": [
+                "A - Superman",
+                "B - Batman",
+                "C - Evan You",
+                "D - Aquaman"
+            ],
+            "answer": "c"
+        },
+        {
+            "toggle": false,
+            "question": "What are directives prefixed with?",
+            "choices": [
+                "A - v-",
+                "B - :bind",
+                "C - v:",
+                "D - @"
+            ],
+            "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "What would you use to toggle the presence of an element?",
+            "choices": [
+                "A - :show",
+                "B - v-if",
+                "C - @show",
+                "D - :if"
+            ],
+            "answer": "b"
+        },
+        {
+            "toggle": false,
+            "question": "What directive can be used to display a list of items in an Array?",
+            "choices": [
+                "A - v-list",
+                "B - v-item",
+                "C - v-entry",
+                "D - v-for"
+            ],
+            "answer": "d"
+        },
+        {
+            "toggle": false,
+            "question": "What directive will attach an event listener?",
+            "choices": [
+                "A - :listen",
+                "B - v-on",
+                "C - @v-on",
+                "D - :click"
+            ],
+            "answer": "b"
+        },
+        {
+            "toggle": false,
+            "question": "Properties and methods exposed by Vue are prefixed with what character?",
+            "choices": [
+                "A - $",
+                "B - v",
+                "C - @",
+                "D - :"
+            ],
+            "answer": "a"
+        }
+    ],
+    "vuex": [
+        {
+            "toggle": false,
+            "question": "Who created Vuex?",
+            "choices": [
+                "A - Superman",
+                "B - Batman",
+                "C - Evan You",
+                "D - Aquaman"
+            ],
+            "answer": "c"
+        }
+    ],
+    "vue-router": [
+        {
+            "toggle": false,
+            "question": "Who created Vue Router?",
+            "choices": [
+                "A - Superman",
+                "B - Batman",
+                "C - Evan You",
+                "D - Aquaman"
+            ],
+            "answer": "c"
+        }
+    ]
+}
