@@ -293,12 +293,147 @@
     "vue-router": [
         {
             "toggle": false,
-            "question": "Who created Vue Router?",
+            "question": "Is Vue Router the official router for Vue?",
             "choices": [
-                "A - Superman",
-                "B - Batman",
-                "C - Evan You",
-                "D - Aquaman"
+                "A - true",
+                "B - false"
+            ],
+            "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "By injecting the router, we get access to it as what?",
+            "choices": [
+                "A - vue.$router",
+                "B - $router",
+                "C - this.$router",
+                "D - this.$route"
+            ],
+            "answer": "c"
+        },
+        {
+            "toggle": false,
+            "question": "How do we get access to the current route?",
+            "choices": [
+                "A - vue.$router",
+                "B - $router",
+                "C - this.$router",
+                "D - this.$route"
+            ],
+            "answer": "d"
+        },
+        {
+            "toggle": false,
+            "question": "What class is automatically added to <router-link> when its target route is matched?",
+            "choices": [
+                "A - .active",
+                "B - .router-link-active",
+                "C - .router-active",
+                "D - .router-link"
+            ],
+            "answer": "b"
+        },
+        {
+            "toggle": false,
+            "question": "Dynamic segments start with what character?",
+            "choices": [
+                "A - ?",
+                "B - $",
+                "C - *",
+                "D - :"
+            ],
+            "answer": "d"
+        },
+        {
+            "toggle": false,
+            "question": "What navigation guard allows you to react to route changes?",
+            "choices": [
+                "A - vue.$router",
+                "B - $router",
+                "C - this.$router",
+                "D - this.$route"
+            ],
+            "answer": "c"
+        },
+        {
+            "toggle": false,
+            "question": "What character do we use to match anything?",
+            "choices": [
+                "A - ?",
+                "B - $",
+                "C - *",
+                "D - :"
+            ],
+            "answer": "c"
+        },
+        {
+            "toggle": false,
+            "question": "What is a programmatic way to change routes?",
+            "choices": [
+                "A - router.redirect",
+                "B - router.to",
+                "C - router.set",
+                "D - router.push"
+            ],
+            "answer": "d"
+        },
+        {
+            "toggle": false,
+            "question": "What command would you use to go forwards or backwards in the history stack?",
+            "choices": [
+                "A - router.push",
+                "B - router.go",
+                "C - router.move",
+                "D - router.set"
+            ],
+            "answer": "b"
+        },
+        {
+            "toggle": false,
+            "question": "Which are valid router modes?",
+            "choices": [
+                "A - history, hash, abstract",
+                "B - push, history, go",
+                "C - push, replace, go",
+                "D - history, abstract"
+            ],
+            "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "Can routes be named?",
+            "choices": [
+                "A - true",
+                "B - false"
+            ],
+            "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "When 'props' is set to 'true', the 'route.params' will be set as the component props?",
+            "choices": [
+                "A - true",
+                "B - false"
+            ],
+            "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "The default mode for vue-router is history mode?",
+            "choices": [
+                "A - true",
+                "B - false"
+            ],
+            "answer": "b"
+        },
+        {
+            "toggle": false,
+            "question": "How can you register global guards?",
+            "choices": [
+                "A - router.register",
+                "B - router.before",
+                "C - router.beforeEach",
+                "D - router.set.beforeEach"
             ],
             "answer": "c"
         }
