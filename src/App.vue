@@ -172,7 +172,7 @@ a:hover {
     background: #fffce1;
     color: #4e4a36;
     transform: rotateY(180deg);
-    font-size: 2em;
+    font-size: 1.5em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
