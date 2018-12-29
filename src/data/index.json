@@ -65,17 +65,227 @@
                 "D - :"
             ],
             "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "What directive provides two-way data binding between input and app state?",
+            "choices": [
+                "A - v-bind",
+                "B - v-share",
+                "C - v-ref",
+                "D - v-model"
+            ],
+            "answer": "d"
+        },
+        {
+            "toggle": false,
+            "question": "When a Vue instance is created, all the properties found in this object are added to Vue's reactivity system?",
+            "choices": [
+                "A - data",
+                "B - config",
+                "C - ref",
+                "D - computed"
+            ],
+            "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "Properties in data are on reactive if they existed when the instance was created.",
+            "choices": [
+                "A - true",
+                "B - false"
+            ],
+            "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "Which is not a Vue lifecycle?",
+            "choices": [
+                "A - mounted",
+                "B - destroyed",
+                "C - computed",
+                "D - updated"
+            ],
+            "answer": "c"
+        },
+        {
+            "toggle": false,
+            "question": "Modifiers are special postfixes denoted by what character?",
+            "choices": [
+                "A - v",
+                "B - .",
+                "C - :",
+                "D - @"
+            ],
+            "answer": "b"
+        },
+        {
+            "toggle": false,
+            "question": "What is the shorthand for the v-bind directive?",
+            "choices": [
+                "A - $",
+                "B - there is no shorthand",
+                "C - @",
+                "D - :"
+            ],
+            "answer": "d"
+        },
+        {
+            "toggle": false,
+            "question": "What is the shorthand for the v-on directive?",
+            "choices": [
+                "A - $",
+                "B - there is no shorthand",
+                "C - @",
+                "D - :"
+            ],
+            "answer": "c"
+        },
+        {
+            "toggle": false,
+            "question": "Can you provide a setter for a computed property?",
+            "choices": [
+                "A - true",
+                "B - false"
+            ],
+            "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "Conditional rendering is provided with what directive?",
+            "choices": [
+                "A - v-display",
+                "B - v-if",
+                "C - @on-display",
+                "D - :display"
+            ],
+            "answer": "b"
         }
     ],
     "vuex": [
         {
             "toggle": false,
-            "question": "Who created Vuex?",
+            "question": "What is Vuex?",
             "choices": [
-                "A - Superman",
-                "B - Batman",
-                "C - Evan You",
-                "D - Aquaman"
+                "A - state management pattern + library",
+                "B - vue local storage",
+                "C - database",
+                "D - pattern matching directive"
+            ],
+            "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "What is the source of truth that drives an app?",
+            "choices": [
+                "A - view",
+                "B - state",
+                "C - store",
+                "D - actions"
+            ],
+            "answer": "b"
+        },
+        {
+            "toggle": false,
+            "question": "What is a declarative mapping of the state?",
+            "choices": [
+                "A - view",
+                "B - state",
+                "C - store",
+                "D - actions"
+            ],
+            "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "What is at the center of every Vuex application?",
+            "choices": [
+                "A - vue",
+                "B - state",
+                "C - store",
+                "D - actions"
+            ],
+            "answer": "c"
+        },
+        {
+            "toggle": false,
+            "question": "How do you trigger a state change?",
+            "choices": [
+                "A - true",
+                "B - false"
+            ],
+            "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "How do you access the state object?",
+            "choices": [
+                "A - store.state",
+                "B - store.dispatch",
+                "C - store.commit",
+                "D - store.change"
+            ],
+            "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "Vuex uses a multi-state truee?",
+            "choices": [
+                "A - true",
+                "B - false"
+            ],
+            "answer": "b"
+        },
+        {
+            "toggle": false,
+            "question": "What is the mechanism to 'inject' the store into all child components from the root component?",
+            "choices": [
+                "A - Vue.inject(Vuex)",
+                "B - Vue.use(state)",
+                "C - Vue.use(store)",
+                "D - Vue.use(Vuex)"
+            ],
+            "answer": "d"
+        },
+        {
+            "toggle": false,
+            "question": "What helper generates computed getter functions to make use of multiple store properties?",
+            "choices": [
+                "A - mapState",
+                "B - map.State",
+                "C - store.State",
+                "D - store.mapState"
+            ],
+            "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "What helper maps state getters to local computed properties?",
+            "choices": [
+                "A - mapState",
+                "B - mapGetters",
+                "C - store.State",
+                "D - store.Getters"
+            ],
+            "answer": "b"
+        },
+        {
+            "toggle": false,
+            "question": "The only way to actually change state in a Vuex store is by committing a mutation?",
+            "choices": [
+                "A - true",
+                "B - false"
+            ],
+            "answer": "a"
+        },
+        {
+            "toggle": false,
+            "question": "What is the name of the additional argument passed to 'store.commit' for a mutation?",
+            "choices": [
+                "A - state",
+                "B - options",
+                "C - payload",
+                "D - config"
             ],
             "answer": "c"
         }
