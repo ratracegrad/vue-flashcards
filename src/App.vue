@@ -5,7 +5,6 @@
         <h2 class="description">If you have ever wanted to learn something, you used flashcards. Vue Flashcards is a fun way to test your knowledge of Vue.<br>Select a topic, then pick a card.
         </h2>
         <br>
-        <!--<flash-cards></flash-cards>-->
         <nav class="demo-buttons" >
             <span v-for="(button, b) in buttons" :key="b">
                 <span>

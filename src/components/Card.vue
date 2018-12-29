@@ -53,6 +53,7 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 20px;
 
         &--front {
             font-size: 1.5em;
@@ -69,7 +70,6 @@ export default {
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            padding: 20px;
         }
     }
 }
